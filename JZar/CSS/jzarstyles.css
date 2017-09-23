@@ -1,0 +1,295 @@
+/* header section / nav */
+header {
+  background-image: url("../img/galaxybg.png");
+  background-size:;
+  color: darkorange;
+  text-align: center;
+  text-transform: uppercase;
+  position: fixed;
+  display: flex;;
+  width: 100%;
+  top: 0px;
+
+}
+
+
+@font-face {
+  font-family: 'devil-breeze';
+  src: url'../fonts/devil-breeze-book') format('woff')
+  src: url'../fonts/devil-breeze-bold') format('woff')
+  src: url'../fonts/devil-breeze-demi') format('woff')
+  src: url'../fonts/devil-breeze-light') format('woff')
+  src: url'../fonts/devil-breeze-medium') format('woff');
+}
+
+header h1 {
+font-family: "devil-breeze-book", "devil-breeze-demi", "devil-breeze-light", "devil-breeze-medium", "devil-breeze-bold", "transitional sans-serif", helvetica,;
+}
+
+
+/* To:do
+
+-add bg to studio page
+-fix text for .steve
+-link gear pics / create gear pics pages / attach to gear headers
+-make header bg stretch to fit page
+-set max width to 60 char per line (cpl)
+-add gear photos to headers on gear page / create appropriate subpages
+
+  */
+
+.logo {
+  float: left;
+  position: relative;
+  width: 250px;
+  height: 150px;
+  border-style: none;
+}
+
+header li {
+  font-family: "devil-breeze-book", "devil-breeze-demi", "devil-breeze-light", "devil-breeze-medium", "devil-breeze-bold", "transitional sans-serif", helvetica,;
+display:inline;
+margin: 60px;
+}
+
+
+header a {
+  color: white;
+  background-color: gray;
+  border-style: solid;
+  border-bottom: none;
+  border-color: darkorange;
+  padding: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 20px;
+
+
+}
+
+header a:hover {
+  color: orange;
+  background-color: black;
+
+}
+
+header a:focus:active {
+  color:orange;
+  background-color:black;
+
+}
+  .logo {
+    float: left;
+    top: 0px;
+  }
+
+/*site wide default body*/
+
+
+body {
+  font-family: Arial, serif;
+  padding: 180px;
+}
+
+/*home/landing page section*/
+
+.homebody {
+  background-image: url("../img/black_lozenge.png");
+}
+
+/*gear (equipment section)*/
+
+.gear-body {
+  background-image: url("../img/black_lozenge.png");
+
+}
+
+.gear-body h2 {
+  color: darkorange;
+  font-family: "devil-breeze", "devil-breeze-bold", "devil-breeze-book", "devil-breeze-demi", "devil-breeze-medium", "transitional sans-serif", helvetica,;
+
+}
+
+.gear-body h3 {
+  color: darkorange;
+  font-family: "devil-breeze-book", "devil-breeze-light", "devil-breeze-medium", "transitional sans-serif", helvetica,;
+
+}
+
+
+.gear-body ul {
+  color: white;
+
+}
+
+.gear-body ul:hover {
+  color: orange;
+}
+
+.gear-body p {
+  color:gray;
+}
+
+.mixing-systems-div, .software-div, .amps-div, .cameras-div, .speakers-div, .drumset-div, .microphones-div, .guitars-div, .misc-div{
+  border-style: solid;
+  border-color: white;
+  padding: 3px;
+  margin: 5px;
+  background-image: url("../img/stressed_linen.png");
+
+}
+
+.gear-top-row, .gear-row2, .gear-row3 {
+  display: flex;
+  border-style: none;
+}
+
+/* studio/about page*/
+
+.studio {
+  background-image: url("../img/woodgraindark.png");
+}
+
+.about {
+  display: flex;
+  color: darkorange;
+  background-image: url("../img/stressed_linen.png");
+
+}
+
+.about p {
+  color: darkorange;
+  margin-top: 300px;
+}
+
+.team {
+  display: flex;
+  border-style: solid;
+  border-color: orange;
+  margin-top: 75px;
+  background-image: url("../img/stressed_linen.png");
+
+}
+
+.team h4 {
+  color:gray;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.steve, .john {
+  align: left;
+  padding: 10px;
+}
+
+.studio {
+  align: center;
+  padding: 5px;
+  margin-left: 150px;
+}
+
+.soundcloud {
+
+}
+
+/* media page */
+
+body {
+  background-image: url("../img/moulin.png");
+}
+
+.mic-link {
+  float: left;
+}
+
+.mic-box-text {
+  color: orange;
+  padding-top: 150px;
+}
+
+.amp-box {
+  border: 20px auto;
+}
+
+.amp-link {
+  float: right;
+}
+
+.amp-box-text {
+  color: orange;
+  padding-top: 150px;
+}
+
+/*gear page*/
+
+.mixing-systems-div {
+  width: 300px;
+
+}
+
+.software-div {
+  width: 300px;
+}
+
+.amps-div {
+  width: 300px;
+}
+
+.cameras-div {
+  width: 300px;
+}
+
+.speakers-div {
+  width: 300px;
+}
+
+.drumset-div {
+  width: 300px;
+}
+
+.misc-div {
+width: 300px;
+}
+
+.microphones-div {
+width: 300px;
+}
+
+.guitars-div {
+width: 300px;
+}
+
+/*media page*/
+
+
+
+/*sitewide footer section */
+footer {
+  border-top: 3px;
+  border-top-style: solid;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-color: gray;
+  margin: 3px;
+  width: 100%:
+
+}
+
+.nav-footer {
+  padding: 20px;
+  margin-top: 100px;
+  background-image: url("../img/metalgrill.jpg");
+}
+
+.nav-footer a {
+  color: gray;
+}
+
+.nav-footer li {
+  display: inline;
+}
+
+.nav-footer a:hover {
+  color: darkorange;
+}
